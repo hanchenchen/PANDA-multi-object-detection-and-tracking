@@ -2,4 +2,4 @@
 *PANDA_IMAGE/*
 .idea/
 *.zip
-CATE*/
+*__pycache__*
