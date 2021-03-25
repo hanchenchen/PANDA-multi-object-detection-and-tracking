@@ -1,4 +1,4 @@
-CATE_ID = '4'
+CATE_ID = '1'
 
 classes_dict = {'1': 'visible body', '2': 'full body', '3': 'head', '4': 'vehicle'}
 json_pre_dict = {'1': 'person_visible', '2': 'person_full', '3': 'person_head', '4':'vehicle'}
@@ -38,7 +38,7 @@ test_pipeline = [
         ])
 ]
 data = dict(
-    samples_per_gpu=12,
+    samples_per_gpu=8, # 2
     workers_per_gpu=16,
     train=dict(
         type=dataset_type,

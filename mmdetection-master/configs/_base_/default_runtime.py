@@ -11,6 +11,8 @@ custom_hooks = [dict(type='NumClassCheckHook')]
 
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
-load_from = None #'./checkpoints/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth' # None
+# load_from = None
+# load_from = './checkpoints/faster_rcnn_r50_fpn_1x_coco_20200130-047c8118.pth'
+load_from = './checkpoints/cascade_rcnn_r101_fpn_1x_coco_20200317-0b6a2fbf.pth'
 resume_from = None # './work_dirs/faster_rcnn_r50_fpn_1x_coco/latest.pth'
 workflow = [('train', 1)]

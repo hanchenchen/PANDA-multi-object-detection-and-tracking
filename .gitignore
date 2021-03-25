@@ -1,5 +1,7 @@
-*DATA/*
-*PANDA_IMAGE/*
+*DATA*
+*PANDA_IMAGE*
 .idea/
 *.zip
 *__pycache__*
+*mmdet*
+*.pyc
