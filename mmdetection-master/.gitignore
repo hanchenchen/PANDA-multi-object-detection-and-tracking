@@ -5,6 +5,6 @@ CATE_ID_*/
 demo/
 docker/
 docs/
-mmdet/
+RESULTS/
 *pycache*
 *.pyc

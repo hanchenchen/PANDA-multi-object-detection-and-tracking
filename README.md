@@ -93,3 +93,5 @@ zstd                      1.4.9                h6255e5f_0    conda-forge
 ```
 
 ##### 初赛:65 /0.36/0.34/0.53/0.38/0.07/0.29/0.38
+
+Faster RCNN + Schedule_1x + match lr with GPU

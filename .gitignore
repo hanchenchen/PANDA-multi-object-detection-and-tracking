@@ -3,5 +3,4 @@
 .idea/
 *.zip
 *__pycache__*
-*mmdet*
 *.pyc
